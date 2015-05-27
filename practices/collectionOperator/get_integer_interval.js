@@ -10,6 +10,7 @@ function get_number(number_a,number_b){
 }
 function get_number2(number_a,number_b){
     var array = [];
+
     for(var i = number_a; i >= number_b; i--){
         array.push(i);
     }
@@ -23,6 +24,7 @@ function get_integer_interval(number_a, number_b) {
     return get_number(number_a,number_b);
     }
     if(number_a > number_b){
+        
     return get_number2(number_a,number_b);
     }
     return  [number_a];
