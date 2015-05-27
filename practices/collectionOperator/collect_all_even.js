@@ -2,7 +2,6 @@
 
 function collect_all_even(collection) {
     //var _ = require('../lodash/array');
-
     var array=[];
     var collection_a = [1, 2, 3, 4, 5];
     var collection_b = [2, 4];
