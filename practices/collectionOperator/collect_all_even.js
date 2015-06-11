@@ -1,15 +1,16 @@
 'use strict';
 
 function collect_all_even(collection) {
-    var fiter = require('../lodash/zhuyulonglodash/fiter.js');
+    var _ = require('../lodash/mylodash/mylodash.js');
 
-    return fiter(collection,even);
-}
-function even(n) {
-        if (n % 2 ==0) {
-            return n;
-        }
-}
+    var array = [];
+
+    var array = _(collection).filter(function(val){
+        return  val % 2 === 0;
+    }).value();
+
+    return array;
+ }
     // var array = [];
     // var collection_a = [1, 2, 3, 4, 5];
     // var collection_b = [2, 4];
