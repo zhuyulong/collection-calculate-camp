@@ -2,8 +2,7 @@
 
 function get_integer_interval_2(number_a, number_b) {
   //在这里写入代码
-  var _ = require('../lodash/array');
-
+  //var _ = require('../lodash/array');
   var array = [];
 
     if(number_a < number_b){
@@ -25,7 +24,6 @@ function get_integer_interval_2(number_a, number_b) {
     if((number_a === number_b) && (number_a % 2 === 0)){
         return  [number_a];
     }
-
     return [];
 }
 

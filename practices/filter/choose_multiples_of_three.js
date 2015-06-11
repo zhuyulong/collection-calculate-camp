@@ -3,8 +3,8 @@
 function choose_multiples_of_three(collection) {
 
   //在这里写入代码
-  var fiterout = require('../lodash/zhuyulonglodash/fiter.js');
-  var evens = fiterout(collection, function(n){
+  var filter= require('../lodash/zhuyulonglodash/fiter.js');
+  var evens = filter(collection, function(n){
       return n % 3 == 0;
   });
   return evens;

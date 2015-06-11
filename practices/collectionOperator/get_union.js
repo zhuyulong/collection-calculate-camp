@@ -1,9 +1,7 @@
 'use strict';
-
+ var _ = require('../lodash/zhuyulonglodash/zhuyulong.js');
 function get_union(collection_a, collection_b) {
   //在这里写入代码
-  // var _ = require('../lodash/array');
-  // var array=_.union(collection_a,collection_b);
     var array=[];
 
     for(var i = 0; i < collection_b.length; i++){

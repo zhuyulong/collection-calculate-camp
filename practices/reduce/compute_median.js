@@ -17,7 +17,7 @@ function compute_median(collection) {
   var nummid = 0;
 
   if(collection.length % 2 === 0){
-      nummid = (collection[collection.length/2-1] + collection[collection.length/2])/2;
+      nummid = 	(collection[collection.length/2-1] + collection[collection.length/2])/2;
   }else{
       nummid = collection[parseInt(collection.length/2)];
   }

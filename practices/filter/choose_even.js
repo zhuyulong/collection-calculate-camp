@@ -3,8 +3,8 @@
 function choose_even(collection) {
 
   //在这里写入代码
-  var fiterout = require('../lodash/zhuyulonglodash/fiter.js');
-  var evens = fiterout(collection, function(n){
+  var filter = require('../lodash/zhuyulonglodash/fiter.js');
+  var evens = filter(collection, function(n){
       return n % 2 == 0;
   });
   return evens;
